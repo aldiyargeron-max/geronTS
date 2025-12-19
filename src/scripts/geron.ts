@@ -1,0 +1,1 @@
+export const hello = "Привет geron.ts";
