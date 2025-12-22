@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("Привет geron.ts")})();
+new Promise((o,e)=>{setTimeout(()=>{o("Операция успешно выполнена")},1e3)}).then(o=>{console.log(o)}).catch(o=>{console.log(o)}).finally(()=>{console.log("promise завершен")}),console.log("привет");
